@@ -2,15 +2,74 @@
 <html lang="en-us">
 
 <head>
+
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>immission</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
 </head>
 
 <body>
 
-  <h1>HELLO WORLD</h1>
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+      <div class="list-group list-group-flush">
+        <a href="about.html" class="list-group-item sidebar-link h2">ABOUT</a>
+        <a href="#" class="list-group-item sidebar-link h2">THE CREATORS</a>
+        <a href="ws2020.html" class="list-group-item sidebar-link h2">THE REFLECTIVE SPACE</a>
+        <a href="#" class="list-group-item sidebar-link h2">SPRING SUMMER 2020</a>
+        <a href="#" class="list-group-item sidebar-link h2">SUMMER FALL 2020</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content">
+
+      <nav class="navbar navbar-expand-lg sticky-top">
+
+        <button id="menu-toggle">Toggle Menu</button>
+
+        <a class="navbar-brand mx-auto" href="index.html">
+          <h1>immission</h1>
+        </a>
+
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center">THE REFLECTIVE SPACE</h1>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta turpis ut velit ornare vestibulum. Mauris consectetur, est in aliquet eleifend, mi ipsum eleifend magna, hendrerit sollicitudin diam velit sit amet metus. Maecenas dictum massa lorem, sed rutrum ex dapibus nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vitae leo mi. Vivamus malesuada consequat orci, quis venenatis quam consectetur eget. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus bibendum quam sit amet justo varius convallis id eu nibh. In ullamcorper odio elit, non faucibus tellus aliquet imperdiet. Duis quis imperdiet augue. Donec consectetur enim et vestibulum accumsan. Pellentesque porta ultrices nunc eget fermentum. Maecenas ornare gravida mattis. Maecenas id enim non metus vestibulum faucibus in at lorem. Duis placerat, ipsum nec condimentum aliquet, libero elit scelerisque risus, sed feugiat velit tellus vitae magna.</p>
+        <p>Sed blandit odio sed risus molestie consequat. Duis ultricies odio ex. Praesent porttitor tortor vel enim molestie, nec facilisis velit faucibus. Cras risus lorem, aliquam et semper a, blandit eu sapien. Donec vestibulum tempus odio, hendrerit ornare lectus interdum sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus quam in neque vulputate, a ullamcorper orci lobortis. Mauris a facilisis magna. Suspendisse pharetra sollicitudin tincidunt. Praesent nec lacus placerat, dictum magna in, congue ex. Quisque luctus enim non sem dignissim mattis. Cras sagittis nisl dui, vitae pellentesque dolor pellentesque in. Nullam in metus ut tortor commodo viverra.</p>
+        <p>Suspendisse at metus et purus feugiat luctus at nec metus. In congue at erat placerat dictum. Etiam vitae ante ac orci accumsan ornare. Cras eget orci fermentum, bibendum eros at, rhoncus tellus. Nam nec elit ut lectus volutpat tempus quis vel neque. Aenean elementum orci suscipit arcu ornare tincidunt. Etiam varius sem vel urna fermentum cursus. Ut blandit elit et purus fermentum sagittis. Ut sem turpis, condimentum nec mauris in, placerat viverra nisl. Proin sit amet diam porttitor, eleifend libero sit amet, gravida lectus. Quisque ac mattis diam. Fusce pharetra fringilla nisi quis dignissim.</p>
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
 
 </body>
